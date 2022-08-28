@@ -1050,17 +1050,17 @@ section {
 }
 
 /* Custom CSS */
-.myCv{
-  width: 100%;
-  display: block;
-  box-shadow: 3px 3px 15px rgba(6, 120, 227,0.25) inset;
-  text-align: center;
-  border-radius: 15px;
-  cursor: pointer;
-  transition: all 0.5s ease-in;
+#myCv{
+  width: 100% !important;
+  display: block !important;
+  box-shadow: 3px 3px 15px rgba(6, 120, 227,0.25) inset !important;
+  text-align: center !important;
+  border-radius: 15px !important;
+  cursor: pointer !important;
+  transition: all 0.5s ease-in !important;
 }
 
-.myCv:hover, .myCv:focus{
-  transform: scale(1.01);
+#myCv:hover, .myCv:focus{
+  transform: scale(1.01) !important;
   outline: hidden !important;
 }
